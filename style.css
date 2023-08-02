@@ -1405,3 +1405,215 @@ a{
     line-height: 48px;
     padding-right: 1330px;
 }
+
+.menu-drinks-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 195px;
+    margin-top: 48px;    
+}
+
+.menu-drinks-header h3{
+    color: #191919;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-right: 1325px;
+}
+
+.wrapper-menu-drinks-up{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.wrapper-menu-drinks-up__element{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 12px;
+    border: 1px solid #F0F0F0;
+    background: #FFF;
+}
+
+.wrapper-menu-drinks-up__element:nth-last-child(n+2){
+    margin-right: 30px;
+}
+
+.wrapper-menu-drinks-up__element img{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.wrapper-menu-drinks-up__element h3{
+    color: #191919;
+/* Desktop/Subtitle */
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.wrapper-menu-drinks-up__element p{
+    color: #191919;
+/* Desktop/Normal */
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.wrapper-menu-drinks-up__element_inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.wrapper-menu-drinks-up__element_inside button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #FF7010;
+    border: none;
+    color: #FFF;
+    text-align: center;
+/* Desktop/Normal */
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    transition: 300ms;
+    margin-right: 77px;
+    cursor: pointer;
+}
+
+.wrapper-menu-drinks-up__element_inside button:active{
+    transform: scale(1.1);
+}
+
+.wrapper-menu-drinks-up__element_inside p{
+    color: #ff7010;
+    text-align: right;
+/* Desktop/Subtitle */
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.wrapper-menu-drinks-down{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.wrapper-menu-drinks-down__element{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 12px;
+    border: 1px solid #F0F0F0;
+    background: #FFF;
+}
+
+.wrapper-menu-drinks-down__element:nth-last-child(n+2){
+    margin-right: 30px;
+}
+
+.wrapper-menu-drinks-down__element img{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.wrapper-menu-drinks-down__element h3{
+    color: #191919;
+/* Desktop/Subtitle */
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.wrapper-menu-drinks-down__element p{
+    color: #191919;
+/* Desktop/Normal */
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.wrapper-menu-drinks-down_inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.wrapper-menu-drinks-down_inside button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #FF7010;
+    border: none;
+    color: #FFF;
+    text-align: center;
+/* Desktop/Normal */
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    transition: 300ms;
+    margin-right: 77px;
+    cursor: pointer;
+}
+
+.wrapper-menu-drinks-down_inside button:active{
+    transform: scale(1.1);
+}
+
+.wrapper-menu-drinks-down_inside p{
+    color: #ff7010;
+    text-align: right;
+/* Desktop/Subtitle */
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
