@@ -2194,7 +2194,7 @@ a{
     line-height: 22px;
 }
 
-.wrapper-about p{
+.paragraph{
     color: #191919;
 /* Desktop/Normal */
     font-family: SF Pro Text;
@@ -2208,7 +2208,7 @@ a{
     -webkit-text-fill-color: transparent;
 }
 
-.wrapper-about button{
+.parclick{
     border: none;
     outline: none;
     color: #FF7010;
@@ -2224,7 +2224,7 @@ a{
     margin-top: 16px;
 }
 
-.wrapper-about button:active{
+.wrapper-about a:active > #par{
     display: none;
     visibility: hidden;
 }
